@@ -102,7 +102,7 @@ if __name__ == '__main__':
                                 cafebot_state = 2
                         except:
                             rospy.loginfo("Can't decode your voice, pls say again pls")
-                            rospy.loginfo("Command Example : ไปหยิบ")
+                            rospy.loginfo("Command Example : ไปที่")
                             pass
 
                 except:
