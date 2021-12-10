@@ -1,11 +1,11 @@
-### FRA502-Service-Robot
+# FRA502-Service-Robot
 Keedita Chaihetphon ID : 62340500003
 
 Option 1 : Autonomous navigation by a speech interface
 
 หุ่นยนต์นี้ทำหน้าที่เป็นเหมือนกล่องปฐมพยาบาลเคลื่อนที่ ที่จะมีอุปกรณ์สำหรับการปฐมพยาบาล รวมถึงยาสามัญประจำบ้านต่าง ๆ เพื่อช่วยสำหรับคนที่ป่วยหรือไม่สามารถเดินมาหยิบยา หรือบาดเจ็บจนเคลื่อนไหวไม่ได้นั่นเอง ซึ่งหุ่นยนต์ตัวนี้จะสามารถรับคำสั่งเสียงได้ เมื่อผู้ใช้บอกสถานที่ที่ต้องการ หุ่นยนต์จะเคลื่อนที่ไปที่ตำแหน่งของห้องนั้นด้วย Differential Drive ซึ่งหุ่นยนต์จะเคลื่อนที่หลบหลีกสิ่งกีดขวาง โดยที่จะมีการติดกล้อง Lidar และอุปกรณ์อื่น ๆ อยู่ด้านหน้าของตัวหุ่นยนต์
 
-# How to run this project ?
+### How to run this project ?
 1. roscore
 2. roslaunch project project.launch
 3. roslaunch project navigation.launch
@@ -13,11 +13,11 @@ Option 1 : Autonomous navigation by a speech interface
 
 ![image](https://user-images.githubusercontent.com/78614938/145610787-56b789b5-912e-4493-a74c-4b61cf5d103e.png)
 
-# How to command this robot ?
+### How to command this robot ?
 Command example : ไปที่ ...
 เช่น ไปที่ห้องครัว ไปที่ห้องน้ำ เป็นต้น
 
-# Summary the project and explain about problems or challenges 
+### Summary the project and explain about problems or challenges 
   การทำโปรเจกต์ครั้งนี้ ทำให้ได้เข้าใจถึงกระบวนการทำงานของ ROS มากยิ่งขึ้น 
   
   พบปัญหาค่อนข้างเยอะระหว่างการทำงาน
